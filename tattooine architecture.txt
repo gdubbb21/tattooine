@@ -1,0 +1,99 @@
+Tattooine  requirements
+
+account creation => 
+regular or business account
+fills out
+
+artists:
+
+artists
+name, email, DOB, number, location
+
+
+
+artist portfolio
+pictures, title
+
+users
+name, email, dob, number, location, password, 
+
+posts
+artist,
+
+consultations
+notes, body part location, picture of location
+
+
+
+
+USER FLOW
+user logs in
+finds posting, can favorite artist or post,
+once they find one they like they will send a consultation note
+
+
+Artist will then review consultations
+they can accept or decline , or request more information
+
+if accepted the calendar will open up to the customer to select a day and time depending on tattoo
+
+artist will accept and request deposit, has a week to fulfill deposit agreement
+
+
+walkins \
+
+
+DB CREATION 
+
+artists
+
+customers
+
+artist_portfolio
+
+artist_highlight
+
+artist_ad
+
+artist_customer_appointment
+
+artist_calendar
+
+customer_favorites
+
+tattoo_styles
+
+tattoo_locations
+
+customer_consultation_request
+
+
+artists can block customers*
+artists can allow coverups or not*
+artists can choose to display rate per hour/session/day*
+
+customers can only submit 5 requests per artist*
+
+**BODY RENDER**
+
+customers will have full view of their requests and status of request
+ - recieve notifications for changes to request and responses
+ - customers will be able to upload pics of tattoos and where theyre tattooed at
+   - body view and tattooed areas will be highlighted someway
+   - when submitting requests customers will select the body part or area
+   - customers can select if its a cover up
+   - pics required to be uploaded for request
+ - can customers edit requests ? ***
+
+customer looks for artist-> checks portfolio -> 
+submits consultation -> 
+artist reviews and accepts/denies 
+can send response, submit days/hours needed ->
+if accepted -> customer will select a day available 
+if countered -> customer wil upload missing pics, or respond to artists notes ->
+
+how can i use AI to benefit this application?
+- decipher area of body part for picture
+- measurements
+
+
